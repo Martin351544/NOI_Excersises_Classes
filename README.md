@@ -6,4 +6,5 @@ most excersises come from codebreaker.xyz (they are labled)
 
 THIS IS DONE IN C++
 
+this also covers pointers and memory allocation
 

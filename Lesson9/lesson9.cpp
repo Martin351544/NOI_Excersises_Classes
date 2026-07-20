@@ -2,7 +2,7 @@
 using namespace std;
 
 
-//custom comparator for decending
+//custom comparator for decending sort
 bool decending_cmp(int x, int y) {
 	return x > y;
 }

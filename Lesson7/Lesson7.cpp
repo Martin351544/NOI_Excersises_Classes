@@ -66,6 +66,7 @@ int main() {
 		cin >> arr[i];
 	}
 	
+	// This way uses recursion
 	mergeSort(arr, 0, N - 1);
 
 	for (int i = 0; i < N; i ++) {

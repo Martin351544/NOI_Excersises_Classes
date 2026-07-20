@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
 
+// use pointers to not make a copy of the numbers
 void swapNumbers(int *x, int *y) {
 	int temp = *x;
 	*x = *y;
 	*y = temp;
 }
 
+
+// sum array function
 int sum_array(int *arr, int size) {
 	int sum = 0;
 

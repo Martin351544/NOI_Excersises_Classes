@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+// bubble sort takes a LONG time (least efficient) O(N^2) i think
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
@@ -11,6 +13,7 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
+// insertion sort (more efficient)
 void insertionSort(int arr[], int n) {
     for (int i = 1; i < n; i++) {
         int key = arr[i];
@@ -36,6 +39,8 @@ void selectionSort(int arr[], int n) {
     }
 }
 
+
+// print array fucntion to prevent having to print it again every time
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) cout << arr[i] << " ";
     cout << endl;

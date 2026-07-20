@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+/*
+ Intro to functions
+ void returns nothing 
+ int returns int 
+ string well,  returns string
+
+ (Theres also bool and all the other types)
+ */
+
+
 string sayHello() {
 	return "Hello world from function";
 }

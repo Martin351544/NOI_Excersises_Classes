@@ -4,7 +4,7 @@ using namespace std;
 
 // struct data types
 // NEED SEMICOLON AT END OF STRUCT CURLY BRACE {};
-// declare struct outside of main so cmd can uderstand what a Person is
+// declare struct outside of main so cmp can uderstand what a Person is
 struct Person{
 		string name;
 		int age;
@@ -32,7 +32,7 @@ int main() {
 	b.age = 39;
 	b.spouse = &a;
 
-	// use arrows to reference a variable in a struct
+	// use arrows to reference a variable in a struct (cleanest way)))
 	// 					      |
 	// 				             \/
 	cout << a.name << " " << a.age << " " << a.spouse->name << endl;
@@ -61,9 +61,8 @@ int main() {
 	for (int i = 0; i < v.size(); i++) {
 		cout << v[i].name << " " << v[i].age << endl;
 	}
-	
+}	
 
 
 
-	
-}
+

@@ -8,3 +8,4 @@ THIS IS DONE IN C++
 
 this also covers pointers and memory allocation.
 
+there is also spesific folders about important (and complicated) subjects such as sorts and pointers

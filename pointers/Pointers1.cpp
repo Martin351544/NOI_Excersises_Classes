@@ -28,23 +28,23 @@ int main() {
 	here p stores the address
 	doing int* p = &x the * in int sais it's a pointer
 	the asterix is a derefrence (deref) of the variable so here doing *p will give x
-	also a pointer type MUST match the variable
+	also a pointer type MUST match the variable type
 	*/
 
 	int x = 10;
 	p = &x;
 	
-	// check if the pointer is not null
+	// check if the pointer is not null (if its null u get an error)
 	if (p != nullptr)
 		cout << *p << endl; // gives 10 (derefs p)
 	
 
-	// you can also change the variable thru a pointer by derefing it
+	// you can also change the variable thru a pointer by deref-ing it
 	*p = 50;
 
 	cout << x << endl;
 
-	// pointer pointing to pointer pointing to a variable
+	// pointer pointing to pointer pointing to a variable     pp -> address of p -> p -> x
 	int** pp = &p;
 
 	// now to print the address of p 
